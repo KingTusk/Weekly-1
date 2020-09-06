@@ -8,7 +8,8 @@ int main()
     while (stop == 1) {
         int task;
 
-        std::cout << "Choose task to review:  ";
+        system("cls");
+        std::cout << "Choose task to review(single digit number):  ";
         std::cin >> task;
         std::cin.ignore();
         if (task == 1) {
