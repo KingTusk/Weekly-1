@@ -3,6 +3,7 @@
 #include <conio.h>
 
 int main()
+//This is Ivar Emil's first weekly assignment
 {
     int stop = 1;
     while (stop == 1) {
