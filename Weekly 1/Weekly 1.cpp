@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include <conio.h>
+
+//This is Ivar Emil's first weekly assignment
 
 int main()
-//This is Ivar Emil's first weekly assignment
 {
     int stop = 1;
     while (stop == 1) {
@@ -13,7 +13,9 @@ int main()
         std::cout << "Choose task to review(single digit number):  ";
         std::cin >> task;
         std::cin.ignore();
+
         if (task == 1) {
+
             std::string fullname;
             char initial;
             int age;
@@ -60,7 +62,6 @@ int main()
             }
             std::cout << "\nType 1 to repeat program or 2 to end program\n";
             std::cin >> stop;
-
         }
         else if (task == 3) {
             int age;
@@ -111,14 +112,6 @@ int main()
             std::cin >> stop;
         }
     }
-   
-
-
-
-
-    
-    
-
 }
 
 
